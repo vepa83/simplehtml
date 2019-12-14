@@ -1,0 +1,12 @@
+.avatar-img{
+    display: block;
+    position: relative;
+    width: 240px;
+    height: auto;
+}
+
+.text-jst{
+    display: block;
+    position: relative;
+    text-align: justify;
+}
