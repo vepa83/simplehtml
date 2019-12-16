@@ -1,14 +1,52 @@
+.container{
+  background-image: url(../images/absrtk_bckgrd.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.member{
+  display: block;
+  position: relative;
+  margin-top: 40px;
+}
+
+.header{
+  display: block;
+  position: relative;
+  line-height: 120px;
+  background: blue;
+  color: white;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 800;
+}
+
 .avatar-img{
     display: block;
     position: relative;
     width: 240px;
     height: auto;
+    border-radius: 120px;
+    border: 3px solid blue;
 }
 
+.avatar-img:hover{
+  border: 3px solid white;
+  border-radius: 10px;
+  transition-duration: 0.3s;
+}
+
+.text-wrapper{
+  margin: 10px auto;
+  background: #ffffff;
+  padding: 15px 0;
+  border-top-left-radius: 25px;
+}
 .text-jst{
     display: block;
     position: relative;
     text-align: justify;
+    width: 94%;
+    margin: 0 auto;
 }
 
 /* Trying to set following img as page background, but not working. Help Vepa? */
@@ -17,13 +55,6 @@
 } */
 /* Above not working trying to do full page responsive background. Help Vepa? */
 
-.avatar-img {
-  display: block;
-  position: relative;
-  width: 240px;
-  height: auto;
-  border: 2px solid black;
-}
 
 .text-jst {
   display: block;
@@ -136,9 +167,12 @@ ul.skills {
 
 /* Following is styling and place for custom svg's for each Co-Founder, so far only mine. However mine not working. I had mine working on another web page, but can't get to show up for some reason. I will keep trying*/
 footer {
+  background: black;
+  color: white;
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
+  font-size:20px;
 }
 
 footer ul {
