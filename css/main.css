@@ -10,3 +10,174 @@
     position: relative;
     text-align: justify;
 }
+
+/* Trying to set following img as page background, but not working. Help Vepa? */
+/* body {
+  background-image: url(images/absrtk_bckgrd.jpg);
+} */
+/* Above not working trying to do full page responsive background. Help Vepa? */
+
+.avatar-img {
+  display: block;
+  position: relative;
+  width: 240px;
+  height: auto;
+  border: 2px solid black;
+}
+
+.text-jst {
+  display: block;
+  position: relative;
+  text-align: justify;
+}
+
+/* The following portion styles Goal card with skills */
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #05BD22;
+  border-radius: 6px;
+}
+
+.card:hover {
+  border-color: #ff99ff;
+}
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+/* Following li elements (skills2-skills10) styled in the
+ DC Comics Green Lantern + all other Lanterns colors */
+.skills2 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #F21508;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills3 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #F6A123;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills4 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #E0DA48;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills5 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #008000;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills6 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #0C94C5;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills7 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #AF7AC5;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills8 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #C50CB2;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills9 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #000000;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills10 {
+  border-radius: 6px;
+  display: inline-block;
+  background: #E5E7E9;
+  color: black;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+/* Following is styling and place for custom svg's for each Co-Founder, so far only mine. However mine not working. I had mine working on another web page, but can't get to show up for some reason. I will keep trying*/
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  opacity: .75;
+  transition: all .25s;
+}
+
+a.twitter {
+  background-image: url(images/nerd-twitter2.svg);
+}
+
+a.linkedin {
+  background-image: url(images/linkedin4.svg);
+}
+
+a.github {
+  background-image: url(images/Octocat11.svg);
+}
+
+a.social:hover {
+  opacity: 1;
+}
+
+.clearfix {
+  clear: both;
+}
