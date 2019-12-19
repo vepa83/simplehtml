@@ -178,61 +178,51 @@ ul.skills {
 }
 
 /* Following is styling and place for custom svg's for each Co-Founder, so far only mine. However mine not working. I had mine working on another web page, but can't get to show up for some reason. I will keep trying*/
+
 footer {
-  background: black;
-  color: white;
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
-  font-size: 20px;
 }
 
-footer {
-  background-color: white;
-  margin: 10px;
-  height: 110px;
-  clear: both;
-  color: green;
-  text-align: center;
-  padding: 15px;
-  font-size: 90%;
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
 }
 
-/* a.social {
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
   width: 50px;
   height: 50px;
-  background-size: 25px 25px;
+  background-size: 50px 50px;
   opacity: .75;
   transition: all .25s;
-} */
-
-.twitter {
-  padding: 0px;
-  width: 40px;
-  text-decoration: none;
 }
-.twitter:hover {
-  opacity: 0.7;
+a.twitter {
+  background-image: url(images/nerd-twitter2.svg);
 }
-.twitter {
-  color: white;
-}
-
 a.linkedin {
   background-image: url(images/linkedin4.svg);
 }
-
 a.github {
   background-image: url(images/Octocat11.svg);
 }
-
 a.social:hover {
   opacity: 1;
 }
-
 .clearfix {
   clear: both;
 }
