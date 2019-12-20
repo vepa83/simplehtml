@@ -1,15 +1,30 @@
+<<<<<<< HEAD
 .container{
   background-image: url(../images/absrtk_bckgrd.jpg);
   background-size: 100%;
   background-attachment: fixed;
 }
 .member{
+=======
+/* Following Background picture and styling */
+.container {
+  background-image: url(../images/absrtk_bckgrd.jpg);
+  background-size: 94%;
+  background-attachment: fixed;
+}
+
+.member {
+>>>>>>> 6d539d62abaaacacf9a0dbef9ec86e8100f11c4a
   display: block;
   position: relative;
   margin-top: 40px;
 }
 
+<<<<<<< HEAD
 .header{
+=======
+.header {
+>>>>>>> 6d539d62abaaacacf9a0dbef9ec86e8100f11c4a
   display: block;
   position: relative;
   line-height: 120px;
@@ -18,6 +33,7 @@
   text-transform: uppercase;
   font-size: 35px;
   font-weight: 800;
+<<<<<<< HEAD
 }
 
 .avatar-img{
@@ -30,16 +46,144 @@
 }
 
 .avatar-img:hover{
+=======
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
+  border-radius: 6px;
+}
+
+.header:hover {
+  border-color: #ff99ff;
+}
+
+/* following nav menu test 12-19-19 sw */
+/* a {
+  text-decoration: none;
+  color: #0499ff;
+}
+a:hover {
+  color: #6633ff;
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+} */
+/* above for nav menu 12-19-19 sw */
+
+/* below is  test.4 for responsive nav menu 12-19-19 sw */
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+
+ul.horizontal li a.active {
+    background-color: #F827F6;
+}
+
+ul.horizontal2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+ul.horizontal2 li {
+    float: left;
+}
+
+ul.horizontal2 li a {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal2 li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+ul.horizontal2 a.active {
+    color: white;
+    background-color: #0AF6FB;
+}
+/* above is  test.4 for responsive nav menu 12-19-19 sw */
+
+/* Following responsive avatars */
+.avatar-img {
+  display: block;
+  position: relative;
+  width: 240px;
+  height: auto;
+  border-radius: 120px;
+  border: 3px solid blue;
+}
+
+.avatar-img:hover {
+>>>>>>> 6d539d62abaaacacf9a0dbef9ec86e8100f11c4a
   border: 3px solid white;
   border-radius: 10px;
   transition-duration: 0.3s;
 }
 
+<<<<<<< HEAD
 .text-wrapper{
+=======
+/* Responsive wrapper */
+.text-wrapper {
+>>>>>>> 6d539d62abaaacacf9a0dbef9ec86e8100f11c4a
   margin: 10px auto;
   background: #ffffff;
   padding: 15px 0;
   border-top-left-radius: 25px;
+<<<<<<< HEAD
 }
 .text-jst{
     display: block;
@@ -55,6 +199,23 @@
 } */
 /* Above not working trying to do full page responsive background. Help Vepa? */
 
+=======
+  border-bottom: 4px solid #05BD22;
+  border-radius: 6px;
+}
+
+.text-wrapper:hover {
+  border-color: #ff99ff;
+}
+
+.text-jst {
+  display: block;
+  position: relative;
+  text-align: justify;
+  width: 94%;
+  margin: 0 auto;
+}
+>>>>>>> 6d539d62abaaacacf9a0dbef9ec86e8100f11c4a
 
 .text-jst {
   display: block;
@@ -167,12 +328,24 @@ ul.skills {
 
 /* Following is styling and place for custom svg's for each Co-Founder, so far only mine. However mine not working. I had mine working on another web page, but can't get to show up for some reason. I will keep trying*/
 footer {
+<<<<<<< HEAD
   background: black;
   color: white;
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
   font-size:20px;
+=======
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+>>>>>>> 6d539d62abaaacacf9a0dbef9ec86e8100f11c4a
 }
 
 footer ul {
