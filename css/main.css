@@ -29,7 +29,106 @@
   border-color: #ff99ff;
 }
 
-/* Following is menu */
+/* following nav menu test 12-19-19 sw */
+/* a {
+  text-decoration: none;
+  color: #0499ff;
+}
+a:hover {
+  color: #6633ff;
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 5px;
+  position: fixed;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: white
+} */
+/* above for nav menu 12-19-19 sw */
+
+/* below is  test.4 for responsive nav menu 12-19-19 sw */
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+
+ul.horizontal li a.active {
+    background-color: #F827F6;
+}
+
+ul.horizontal2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+ul.horizontal2 li {
+    float: left;
+}
+
+ul.horizontal2 li a {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal2 li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+ul.horizontal2 a.active {
+    color: white;
+    background-color: #0AF6FB;
+}
+/* above is  test.4 for responsive nav menu 12-19-19 sw */
+
 /* Following responsive avatars */
 .avatar-img {
   display: block;
@@ -178,7 +277,6 @@ ul.skills {
 }
 
 /* Following is styling and place for custom svg's for each Co-Founder, so far only mine. However mine not working. I had mine working on another web page, but can't get to show up for some reason. I will keep trying*/
-
 footer {
   width: 100%;
   min-height: 30px;
@@ -211,18 +309,23 @@ a.social {
   opacity: .75;
   transition: all .25s;
 }
+
 a.twitter {
   background-image: url(images/nerd-twitter2.svg);
 }
+
 a.linkedin {
   background-image: url(images/linkedin4.svg);
 }
+
 a.github {
   background-image: url(images/Octocat11.svg);
 }
+
 a.social:hover {
   opacity: 1;
 }
+
 .clearfix {
   clear: both;
 }
