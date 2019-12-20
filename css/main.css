@@ -3,6 +3,7 @@
   background-image: url(../images/absrtk_bckgrd.jpg);
   background-size: 94%;
   background-attachment: fixed;
+  border: 1px solid black;
 }
 
 .member {
@@ -276,18 +277,14 @@ ul.skills {
   margin: 2px;
 }
 
-/* Following is styling and place for custom svg's for each Co-Founder, so far only mine. However mine not working. I had mine working on another web page, but can't get to show up for some reason. I will keep trying*/
+/* Following is styling for custom svg's for each Co-Founder's, so far only mine. */
 footer {
   width: 100%;
   min-height: 30px;
   padding: 20px 0 40px 20px;
 }
 
-footer .copyright {
-  top: -8px;
-  margin-right: 20px;
-  font-size: .75em;
-}
+
 
 footer ul {
   list-style-type: none;
@@ -299,33 +296,10 @@ footer ul li {
   display: inline-block;
 }
 
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 50px;
-  height: 50px;
-  background-size: 50px 50px;
-  opacity: .75;
-  transition: all .25s;
-}
-
-a.twitter {
-  background-image: url(images/nerd-twitter2.svg);
-}
-
-a.linkedin {
-  background-image: url(images/linkedin4.svg);
-}
-
-a.github {
-  background-image: url(images/Octocat11.svg);
-}
-
 a.social:hover {
   opacity: 1;
 }
 
 .clearfix {
   clear: both;
-}
+ }
