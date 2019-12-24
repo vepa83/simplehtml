@@ -30,7 +30,7 @@
   border-color: #ff99ff;
 }
 
-/* below is  test.4 for responsive nav menu 12-19-19 sw */
+/* below is nav menu styling 12-24-19 12pm sw */
 ul.horizontal {
     list-style-type: none;
     margin: 0;
@@ -88,7 +88,6 @@ ul.horizontal2 a.active {
     color: white;
     background-color: #0AF6FB;
 }
-/* above is  test.4 for responsive nav menu 12-19-19 sw */
 
 /* Following responsive avatars */
 .avatar-img {
@@ -159,7 +158,7 @@ ul.skills {
 .skills2 {
   border-radius: 6px;
   display: inline-block;
-  background: #F21508;
+  background: #008000;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -186,7 +185,7 @@ ul.skills {
 .skills5 {
   border-radius: 6px;
   display: inline-block;
-  background: #008000;
+  background: #F21508;
   color: white;
   padding: 5px 10px;
   margin: 2px;
@@ -244,8 +243,6 @@ footer {
   padding: 20px 0 40px 20px;
 }
 
-
-
 footer ul {
   list-style-type: none;
   margin: 0;
@@ -256,10 +253,39 @@ footer ul li {
   display: inline-block;
 }
 
-a.social:hover {
-  opacity: 1;
-}
-
 .clearfix {
   clear: both;
  }
+
+/* Below Social media icons hover styling test.1 12-20-19 7:20pm - It works! 7:22pm */
+  /* ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
+
+/* SOCIAL ICONS - GENERAL */
+.social { margin:30px auto; width:464px; }
+.social li a { display:inline; float:left; }
+.social li a {  height:48px;  position:relative; text-decoration:none; }
+.social li a strong { font-weight:normal; position:absolute; left:20px; top:-1px; color:#fff; padding:3px; z-index:9999;
+ text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
+ -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+/* SOCIAL ICONS - CSS3 */
+#css3:hover li { opacity:0.2; }
+
+#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;
+ -moz-transition-property: opacity; -moz-transition-duration: 500ms; }
+#css3 li a strong { opacity:0;
+ -webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;
+ -moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
+
+#css3 li:hover { opacity:1; }
+#css3 li:hover a strong { opacity:1; top:-10px; }
+/* Above hover styling test.1 12-20-19 7:20pm */

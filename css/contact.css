@@ -1,0 +1,217 @@
+/* Following styling for background */
+body {
+  background: url('../images/hands_gray_bckgrnd_vector.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #E5E6EB ;
+}
+
+/* Following is nav menu styling 12-24-19 12pm sw */
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+
+ul.horizontal li a.active {
+    background-color: #97C30A;
+}
+
+ul.horizontal2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+ul.horizontal2 li {
+    float: left;
+}
+
+ul.horizontal2 li a {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal2 li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+ul.horizontal2 a.active {
+    color: white;
+    background-color: #0AF6FB;
+}
+
+/* Following main header styling */
+.cntctHdr2 {
+  width:100%;
+   max-width: 400px;
+   margin: 0px auto;
+   margin-top: 82px;
+}
+
+.cntctHdr2 {
+  text-align: center;
+  color: #DDECEF;
+  background-color: #BC4676;
+  border: 5px double black;
+  max-width: 400px;
+  }
+
+/* Following is styling for Contact card */
+.card {
+  background-color: white;
+  backgroundwidth: max 500px;
+  width:100%;
+   max-width: 400px;
+   margin: 0px auto;
+   margin-top: 1px;
+
+ }
+
+ .card:hover {
+   border-color: #BC4676;
+ }
+}
+
+.card-body {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.card {
+    font-weight: 400;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1FBED6 !important;
+}
+
+a.btn:not([href]):not([tabindex]), a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):hover {
+    color: #fff;
+}
+
+.btn {
+    margin: .375rem;
+    color: inherit;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    white-space: normal;
+    cursor: pointer;
+    border: 0;
+    border-radius: .125rem;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    padding: .84rem 2.14rem;
+    font-size: .81rem;
+}
+.waves-effect {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
