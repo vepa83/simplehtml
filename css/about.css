@@ -1,0 +1,83 @@
+/* Following styling for background */
+body {
+  background: url('../images/tealgray_bckgrnd.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #E5E6EB ;
+}
+
+/* Following is nav menu styling 12-24-19 12:45pm sw */
+ul.horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.horizontal li {
+    float: left;
+}
+
+ul.horizontal li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal li a:hover:not(.active) {
+    background-color: #000;
+}
+
+ul.horizontal li a.active {
+    background-color: #1FBED6;
+}
+
+ul.horizontal2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+ul.horizontal2 li {
+    float: left;
+}
+
+ul.horizontal2 li a {
+    display: inline-block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.horizontal2 li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+ul.horizontal2 a.active {
+    color: white;
+    background-color: #0AF6FB;
+}
+
+/* Styling for Austin, Tx  */
+.astnSW {
+  margin-top: auto;
+}
+
+/* Following is styling for Turkmenistan Ashgabat image */
+.trkmnstnAshgbt {
+  float: right;
+  margin-top: auto;
+}
+
+.trkmkstn {
+  margin-bottom: auto;
+}

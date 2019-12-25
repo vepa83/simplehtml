@@ -32,61 +32,61 @@
 
 /* below is nav menu styling 12-24-19 12pm sw */
 ul.horizontal {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 ul.horizontal li {
-    float: left;
+  float: left;
 }
 
 ul.horizontal li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 ul.horizontal li a:hover:not(.active) {
-    background-color: #000;
+  background-color: #000;
 }
 
 ul.horizontal li a.active {
-    background-color: #F827F6;
+  background-color: #F827F6;
 }
 
 ul.horizontal2 {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
 }
 
 ul.horizontal2 li {
-    float: left;
+  float: left;
 }
 
 ul.horizontal2 li a {
-    display: inline-block;
-    color: #666;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  display: inline-block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 ul.horizontal2 li a:hover:not(.active) {
-    background-color: #ddd;
+  background-color: #ddd;
 }
 
 ul.horizontal2 a.active {
-    color: white;
-    background-color: #0AF6FB;
+  color: white;
+  background-color: #0AF6FB;
 }
 
 /* Following responsive avatars */
@@ -255,37 +255,68 @@ footer ul li {
 
 .clearfix {
   clear: both;
- }
+}
 
-/* Below Social media icons hover styling test.1 12-20-19 7:20pm - It works! 7:22pm */
-  /* ul {
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-} */
+/* SOCIAL ICONS of Co-Founder's 12-24-19 418pm */
+.social {
+  margin: 0px auto;
+  width: 240px;
+}
 
-/* SOCIAL ICONS - GENERAL */
-.social { margin:30px auto; width:464px; }
-.social li a { display:inline; float:left; }
-.social li a {  height:48px;  position:relative; text-decoration:none; }
-.social li a strong { font-weight:normal; position:absolute; left:20px; top:-1px; color:#fff; padding:3px; z-index:9999;
- text-shadow:1px 1px 0 rgba(0, 0, 0, 0.75); background-color:rgba(0, 0, 0, 0.7);
- -moz-border-radius:3px; -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); -webkit-border-radius:3px; -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); border-radius:3px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+.social li a {
+  display: inline;
+  margin: 0px auto;
+}
+
+.social li a {
+  height: 48px;
+  position: relative;
+  text-decoration: none;
+}
+
+.social li a strong {
+  font-weight: normal;
+  position: absolute;
+  left: 20px;
+  top: -1px;
+  color: #fff;
+  padding: 3px;
+  z-index: 9999;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.7);
+  -moz-border-radius: 3px;
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 3px;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 /* SOCIAL ICONS - CSS3 */
-#css3:hover li { opacity:0.2; }
+#css3:hover li {
+  opacity: 0.2;
+}
 
-#css3 li { -webkit-transition-property: opacity; -webkit-transition-duration: 500ms;
- -moz-transition-property: opacity; -moz-transition-duration: 500ms; }
-#css3 li a strong { opacity:0;
- -webkit-transition-property: opacity, top; -webkit-transition-duration: 300ms;
- -moz-transition-property: opacity, top; -moz-transition-duration: 300ms; }
+#css3 li {
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 500ms;
+  -moz-transition-property: opacity;
+  -moz-transition-duration: 500ms;
+}
 
-#css3 li:hover { opacity:1; }
-#css3 li:hover a strong { opacity:1; top:-10px; }
-/* Above hover styling test.1 12-20-19 7:20pm */
+#css3 li a strong {
+  opacity: 0;
+  -webkit-transition-property: opacity, top;
+  -webkit-transition-duration: 300ms;
+  -moz-transition-property: opacity, top;
+  -moz-transition-duration: 300ms;
+}
+
+#css3 li:hover {
+  opacity: 1;
+}
+
+#css3 li:hover a strong {
+  opacity: 1;
+  top: -10px;
+}
