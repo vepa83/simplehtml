@@ -19,6 +19,7 @@
   background: blue;
   color: white;
   text-transform: uppercase;
+  text-shadow: 2px 2px #F827F6; 
   font-size: 35px;
   font-weight: 800;
   border-bottom: 4px solid white;

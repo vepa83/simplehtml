@@ -79,8 +79,9 @@ ul.horizontal2 a.active {
   text-align: center;
   color: #DDECEF;
   background-color: #BC4676;
-  border: 5px double black;
+  border: 6px groove #1FBED6;
   max-width: 400px;
+  text-shadow: 2px 2px #1FBED6;
   }
 
 /* Following is styling for Contact card */
@@ -133,7 +134,7 @@ div {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1.5px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
 }
 

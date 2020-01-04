@@ -5,13 +5,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #E5E6EB ;
+  background-color: #E5E6EB;
 }
 
 /* Following is nav menu styling 12-24-19 12:45pm sw */
 ul.horizontal {
     list-style-type: none;
     margin: 0;
+    margin-top: auto;
     padding: 0;
     overflow: hidden;
     background-color: #333;
